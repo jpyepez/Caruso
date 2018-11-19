@@ -18,26 +18,26 @@ module.exports = {
             template: './src/index.html'
         }),
         new CleanWebpackPlugin(['dist']),
-//         new SocialTags({
-//             appUrl: 'https://projects.jpyepez.com/WikiClassifier/',
-//       facebook: {
-//         'og:url': "https://projects.jpyepez.com/WikiClassifier/",
-//         'og:type': "website",
-//         'og:title': "Wiki Classifier",
-//         'og:image': './src/assets/thumb.png',
-//         'og:description': "Web App that gets images from Wikipedia and classifies them using the MobileNet model.",
-//         'og:site_name': "JP Yepez - Projects",
-//         'og:locale': "en_US",
-//       },
-//       twitter: {
-//         "twitter:card": "summary",
-//         "twitter:creator": "@jpyepezartist",
-//         "twitter:url": "https://projects.jpyepez.com/WikiClassifier/",
-//         "twitter:title": "Wikipedia Image Classifier",
-//         "twitter:description": "Web App that gets images from Wikipedia and classifies them using the MobileNet model.",
-//         "twitter:image": './src/assets/thumb.png'
-//       }
-//         })
+        new SocialTags({
+            appUrl: 'https://projects.jpyepez.com/BecomeHoratio/',
+            facebook: {
+                'og:url': "https://projects.jpyepez.com/BecomeHoratio/",
+                'og:type': "website",
+                'og:title': "Become Horatio",
+                'og:image': './src/assets/thumb.jpg',
+                'og:description': "Experience your own Horatio Caine moments.",
+                'og:site_name': "JP Yepez - Projects",
+                'og:locale': "en_US",
+            },
+            twitter: {
+                "twitter:card": "summary",
+                "twitter:creator": "@jpyepezartist",
+                "twitter:url": "https://projects.jpyepez.com/BecomeHoratio/",
+                "twitter:title": "Become Horatio",
+                "twitter:description": "Experience your own Horatio Caine moments.",
+                "twitter:image": './src/assets/thumb.jpg'
+            }
+        })
     ],
     module: {
         rules: [
