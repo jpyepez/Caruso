@@ -13,6 +13,8 @@ const container = document.getElementById('container');
 const status = document.getElementById('status');
 // const label = document.getElementById('label');
 
+(new Image().src = miami);
+
 let isPlaying = false;
 let hasSunglasses = false;
 
